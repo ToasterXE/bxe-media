@@ -1,0 +1,67 @@
+*{
+    font-family: "Arial";
+    background-color: rgb(240, 214, 167);
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+    /* color:rgb(255, 255, 255); */
+}
+.etwasgrößer p{
+    font-size: 30px;
+}
+
+#newline {
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.unterüberschrift {
+    display: block;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.aufzählung{
+    display: block;
+    background-color: hsl(32, 71%, 60%);
+    padding: 30px;
+    border: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.aufzählung p{
+    text-align: left;
+    background-color: hsl(32, 71%, 60%);
+
+}
+
+.aufzählung #beschreibung {
+    display: inline-block;
+    text-align: left;
+    margin-top: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: hsl(27, 71%, 40%);
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 24px;
+}
+.aufzählung #beschreibung p{
+    text-align: center;
+    background-color: hsl(27, 71%, 40%);
+}
+
+::selection {
+    color: hsl(32, 71%, 60%);
+    background-color: hsl(33, 54%, 83%);
+}

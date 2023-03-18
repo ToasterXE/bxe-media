@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "candara";
+    src: url(./dateien/Candara.woff2) format("woff2"),
+         url(./dateien/Candara.ttf) format("truetype");
+}
+
+*{
+    font-family: "candara";
+    color: rgb(240,240,240);
+    background-color: rgb(83, 83, 83);
+    padding: 0;
+}
+
+.datum{
+    color: rgb(240,240,240);
+    font-size: 20px;
+    text-align: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.spotify-links {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    align-items: center;
+    background-color: rgb(214, 255, 252);
+}
+.spotify-links a{
+    background-color: rgb(214, 255, 252);
+}
+
+.spotify-links img{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 5px;
+    padding: 5px;
+    border-color: rgb(206, 164, 152);
+    background-color: rgb(214, 255, 252);
+    border-style: solid;
+}
+
+.bigrat{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(220, 46, 97);
+    display: block;
+}
+#bigrat-e{
+    display: flex; 
+    justify-content: center;
+}
+
+.bigrat button {
+    font-size: 30px;
+    color: rgb(167, 19, 44);
+    background-color: rgb(255, 143, 143);
+    border: 3px;
+    padding-top: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.bigrat .button2 {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 310px;
+    width: 410px;
+    color: rgb(100, 27, 27);
+    background-color: rgb(110, 39, 39);
+    /*margin-top: 10px;*/
+}
+
+.bigrat .button2:hover{
+    background-color: rgb(83, 74, 168);
+}
+
+.bigrat button:hover{
+    background-color:rgb(255, 68, 68);
+}
+
+.bigrat img{
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    border-radius: 10px;
+}
+
+p{
+    color:rgb(125, 127, 241);
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
