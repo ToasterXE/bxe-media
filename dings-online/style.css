@@ -1,0 +1,25 @@
+*{
+    font-family: "Leelawadee";
+    background-color: rgb(89, 177, 81);
+    text-align: center;
+}
+
+.feld {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(20,20,20);
+    padding: 0px;
+    margin: -3px;
+}
+
+.test {
+    align-items: center;
+    padding-left: 50%;
+    margin-top: 50px; 
+    display: inline;
+    background-color:rgb(20,20,20);
+}
+.e{
+    margin-top: -18px;
+    margin-bottom: 10px;
+}
