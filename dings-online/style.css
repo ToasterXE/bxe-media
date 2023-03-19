@@ -1,13 +1,13 @@
 *{
     font-family: "Leelawadee";
-    background-color: rgb(89, 177, 81);
+    background-color: rgb(20,20,20);
     text-align: center;
 }
 
 .feld {
     border: 1px;
-    border-style: solid;
-    border-color: rgb(20,20,20);
+    /* border-style: solid; */
+    /* border-color: rgb(20,20,20); */
     padding: 0px;
     margin: -3px;
 }
@@ -22,4 +22,38 @@
 .e{
     margin-top: -18px;
     margin-bottom: 10px;
+}
+
+.steuerung{
+    padding-top: 20px;
+
+}
+
+.steuerung button{
+    background-color: rgb(45, 211, 30);
+    border-color:black;
+    border-style:solid;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right:30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.steuerung button:hover{
+    background-color: rgb(86, 216, 74);
+    transition: 0.2s;
+}
+
+.steuerung button:focus{
+    outline-color:rgb(94, 228, 82);
+    outline-style: solid;
+    outline-offset: 1px;
+    outline-width: 3px;
+}
+
+.steuerung button:active{
+    background-color: rgb(21, 255, 0);
+    font-size: 18px;
+    transition: 0.3s;
 }
